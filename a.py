@@ -27,7 +27,7 @@ with col1:
     image = Image.open("pc.jpg")  # Ensure you have a profile image
     st.image(image, width=400)
 with col2:
-    st.markdown("<p class='main-title'>Hi! I'm Ramanprit Kaur</p>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: cyan;'>Hi! I'm Ramanprit Kaur 👋</h2>", unsafe_allow_html=True)
     social_icons_data = {
     "LinkedIn": ["https://www.linkedin.com/in/ramanprit-kaur-1b856a2b6/", "https://cdn-icons-png.flaticon.com/128/3536/3536505.png"],
     "GitHub": ["https://github.com/ramanprit07", "https://cdn-icons-png.flaticon.com/128/5968/5968866.png"]
