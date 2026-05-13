@@ -18,7 +18,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-with open("Ramanprit kaur(3).pdf", "rb") as pdf_file:
+with open("resume.pdf", "rb") as pdf_file:
        pdf_bytes = pdf_file.read()
 
 # Profile Section
